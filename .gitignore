@@ -1,0 +1,37 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large Model Weights & Data
+*.pth
+*.pt
+*.onnx
+data/raw/
+data/processed/
+!models/README.md
+!data/README.md
+!data/sample/
+
+# Output predictions & plots (keep folder structure)
+outputs/sample_predictions/*
+!outputs/sample_predictions/.gitkeep

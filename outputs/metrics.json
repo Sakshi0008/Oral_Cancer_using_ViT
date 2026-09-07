@@ -1,0 +1,36 @@
+{
+  "accuracy": 1.0,
+  "accuracy_pct": "100.00%",
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "total_test_samples": 11,
+  "per_class_metrics": {
+    "Normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 3
+    },
+    "Low Risk of Malignant Transformation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 4
+    },
+    "High Risk of Malignant Transformation": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 4
+    }
+  },
+  "classes": [
+    "Normal",
+    "Low Risk of Malignant Transformation",
+    "High Risk of Malignant Transformation"
+  ],
+  "model_architecture": "Vision Transformer (ViT-B/16)",
+  "disclaimer": "Metrics represent research-model evaluation and do NOT denote clinical diagnostic efficacy."
+}
